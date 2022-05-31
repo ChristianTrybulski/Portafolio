@@ -99,9 +99,9 @@ p {
 .alinea-footer {
     padding: 10px 0;
     text-align: center;
-    background-color: rgb(74, 139, 173);
+    background-color: black;
 }
 
 .footer-text {
-    color: black;
+    color: white;
 }
