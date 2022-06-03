@@ -1,5 +1,6 @@
 body {
     background-color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
 }
 
 
@@ -92,12 +93,64 @@ p {
     justify-items: left;
 }
 
-.formulario {
-    font-family: 'Roboto Condensed', sans-serif;
+form {
+    width: 450px;
+    margin: auto;
+    background: rgba(0, 0, 0, 0.40);
+    padding: 10px 20px;
+    box-sizing: border-box;
+    margin-top: px;
+    border-radius: 7px;
+}
+
+h4 {
+    color: black;
+    text-align: center;
+    margin: 0%;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+input, textarea {
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    box-sizing: border-box;
+    font-size: 17px;
+    border: 1px solid grey;
+}
+
+textarea {
+    min-height: 100px;
+    max-height: 200px;
+    max-width: 100%;
+}
+
+#boton { 
+    background: #31384a;
+    color: white;
+    padding: 10px;
+}
+
+#boton:hover {
+    cursor: pointer;
+}
+
+@media(max-width:480px) {
+    form{
+        width: 100%;
+    }
+}
+
+.redes {
+    width: 40px;
+    min-width: 40px;
+    margin: 0;
+    padding: 20px 0;
 }
 
 .alinea-footer {
-    padding: 10px 0;
+    padding: 5px 0;
     text-align: center;
     background-color: black;
 }
