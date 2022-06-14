@@ -1,0 +1,29 @@
+.grid-container {
+    display: grid;
+    margin: 40px 0 40px 0;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 200px);
+    gap: 1px 1px;
+    text-align: center;
+    justify-content: stretch;
+    font-size: 1.5rem;
+    grid-template-areas: "articuloUno articuloUno articuloUno articuloUno"
+    "articuloDos articuloDos articuloDos articuloDos"
+   "articuloTres articuloTres articuloCuatro articuloCuatro"; 
+   .articuloUno {
+    grid-area: articuloUno;
+    background-color: #73CAEF; 
+   }
+   .articuloDos {
+    grid-area: articuloDos;
+    background-color: #67B5D7; 
+   }
+   .articuloTres {
+    grid-area: articuloTres;
+    background-color: #5CA1BF; 
+   }
+   .articuloCuatro {
+    grid-area: articuloCuatro;
+    background-color: #508DA7; 
+   }
+}

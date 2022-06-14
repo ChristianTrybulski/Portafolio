@@ -1,0 +1,27 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
+
+.menu-container {
+    background-color: black;
+    color: rgb(74, 139, 173);
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+    .menu {
+        background-color: rgb(74, 139, 173);
+        padding: 10px 0;
+        margin: 0px;
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+        font-family: 'Roboto Condensed', sans-serif;
+    }
+} 
