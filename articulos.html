@@ -25,23 +25,23 @@
 <body>
 
    <header class="menu-conteiner">
-      <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
+      <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
          <a class="navbar-brand" href="index.html">
-            <img src="imagenes/logo.PNG" class="d-inline-block align-text-top" alt="logo boostrap">
+            <img src="imagenes/logo.PNG" width="150" height="auto" class="img-fluid" alt="logo boostrap">
           </a>
           <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-               <ul class="navbar-nav mx-auto">
-                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
-                 <li class="nav-item"><a class="nav-link" href="portafolioweb.html">Portafolio Web</a></li>
-                 <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de</a></li>
-                 <li class="nav-item"><a class="nav-link" href="articulos.html">Articulos</a></li>
-                 <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+               <ul class="navbar-nav mr-auto">
+                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">INICIO</a></li>
+                 <li class="nav-item"><a class="nav-link" href="portafolioweb.html">PORTAFOLIO WEB</a></li>
+                 <li class="nav-item"><a class="nav-link" href="acercade.html">ACERCA DE</a></li>
+                 <li class="nav-item"><a class="nav-link" href="articulos.html">ARTICULOS</a></li>
+                 <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
             </ul>
            </div>
-      </nav>
+      </nav> 
    </header>
 
    <section class="product-container">
@@ -51,32 +51,83 @@
    </section>
 
    <div class="icon-whatsapp">
-      <a href="https://api.whatsapp.com/send?phone=1157400849" class="btn-wsp" target="_blank">
+      <a href="https://api.whatsapp.com/send?phone=1157400849&text=Hola!%20Me%20interesa%20realizar%20una%20pagina%20web." class="btn-wsp" target="_blank">
       <img src="imagenes/whatsapp.svg" alt="Whatsapp">
       </a>
     </div>
 
-    
-   <div class="grid-container">
-		<div class="articuloUno">
-			<p>Formatos de imagen WebP y AVIF: ¿cuál deberías usar?</p>
-         <h6>El formato para imágenes para la Web de Google (WebP) ofrece características y tasas de compresión mejores que las del resto de formatos clásicos (JPG, GIF y PNG) y ya está disponible para su uso en todos los navegadores principales. Sin embargo, el nuevo formato AVIF ofrece tasas de compresión hasta un 30% mejores que WebP y algunas características adicionales, con la pega de que, al contrario que WebP, el formato AVIF todavía no está disponible en la mayoría de los navegadores y sus imágenes requieren un poco más de esfuerzo de procesamiento para ser descodificadas.</h6>
-		</div>
-		<div class="articuloDos">
-			<p>Otros formatos: JPEG XR y JPEG 2000</p>
-         <h6>Microsoft hizo un intento de lanzar su propio formato para la web, JPEG XR. Este mejora la compresión de JPEG a un coste de mayor uso de CPU para su escritura y lectura. Este formato, contrariamente a lo que cabría esperar por parte de Microsoft, tiene licencia abierta, pero a pesar de eso no tuvo éxito y en las últimas versiones de Edge ya no está disponible, por lo que no debería tenerse en cuenta como opción.
-            El formato de imagen JPEG 2000 o JP2, desarrollado por el Joint Photographic Experts Group como sustituto de JPEG, está disponible solo en Safari y no tiene nada que hacer como formato abierto de la web por el gran número de patentes que utiliza y porque no comprime tanto como WebP, y mucho menos como AVIF.</h6>
-		</div>
-		<div class="articuloTres">
-			<p>¿Qué son los formatos de imagen WebP y AVIF?</p>
-         <h6>El formato de imagen WebP (Web Picture Format) tiene licencia Open Source e incorpora casi todas las funcionalidades del resto de formatos de imagen de la Web y, en igualdad de condiciones, ofrece mejores tasas de compresión.
-            El formato de imagen AVIF (AV1 Image File Format) es abierto al igual que Webp, ofrece las mismas características que WebP, mejor compresión a costa de mayor tiempo de procesamiento y alguna funcionalidad adicional, de la que hablaremos más adelante.</h6>
-		</div>
-		<div class="articuloCuatro">
-			<p>Aplicaciones HTML5 híbridas</p>
-         <h6>La forma más común de llevar una aplicación Web a móvil o de desarrollar una aplicación móvil con HTML5, es usar alguna herramienta como PhoneGap o Titanium, que te empaqueta todo el código de la Web en una aplicación que podemos poner a la venta en las tiendas de aplicaciones. A este tipo de apps se les llama híbridas, porque están desarrolladas con HTML5, pero tienen un envoltorio de código nativo del dispositivo, que ejecuta el HTML5 dentro de un navegador y permite el acceso a funcionalidades hardware a las que no es posible acceder, de momento, sólo con HTML5.</h6>
-		</div>
-	</div>
+   <main>
+    <div class="container">
+     <div class="row row-cols-2">
+      <div class="card text-bg-primary mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 1</div>
+         <div class="card-body">
+           <h5 class="card-title">Formatos de imagen WebP y AVIF: ¿cuál deberías usar?</h5>
+           <p class="card-text">El formato para imágenes para la Web de Google (WebP) ofrece características y tasas de compresión mejores que las del resto de formatos clásicos (JPG, GIF y PNG) y ya está disponible para su uso en todos los navegadores principales. Sin embargo, el nuevo formato AVIF ofrece tasas de compresión hasta un 30% mejores que WebP y algunas características adicionales, con la pega de que, al contrario que WebP, el formato AVIF todavía no está disponible en la mayoría de los navegadores y sus imágenes requieren un poco más de esfuerzo de procesamiento para ser descodificadas.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-secondary mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 2</div>
+         <div class="card-body">
+           <h5 class="card-title">Otros formatos: JPEG XR y JPEG 2000</h5>
+           <p class="card-text">Microsoft hizo un intento de lanzar su propio formato para la web, JPEG XR. Este mejora la compresión de JPEG a un coste de mayor uso de CPU para su escritura y lectura. Este formato, contrariamente a lo que cabría esperar por parte de Microsoft, tiene licencia abierta, pero a pesar de eso no tuvo éxito y en las últimas versiones de Edge ya no está disponible, por lo que no debería tenerse en cuenta como opción.
+            El formato de imagen JPEG 2000 o JP2, desarrollado por el Joint Photographic Experts Group como sustituto de JPEG, está disponible solo en Safari y no tiene nada que hacer como formato abierto de la web por el gran número de patentes que utiliza y porque no comprime tanto como WebP, y mucho menos como AVIF.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-success mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 3</div>
+         <div class="card-body">
+           <h5 class="card-title">¿Qué son los formatos de imagen WebP y AVIF?</h5>
+           <p class="card-text">El formato de imagen WebP (Web Picture Format) tiene licencia Open Source e incorpora casi todas las funcionalidades del resto de formatos de imagen de la Web y, en igualdad de condiciones, ofrece mejores tasas de compresión.
+            El formato de imagen AVIF (AV1 Image File Format) es abierto al igual que Webp, ofrece las mismas características que WebP, mejor compresión a costa de mayor tiempo de procesamiento y alguna funcionalidad adicional, de la que hablaremos más adelante.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-danger mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 4</div>
+         <div class="card-body">
+           <h5 class="card-title">Aplicaciones HTML5 híbridas</h5>
+           <p class="card-text">La forma más común de llevar una aplicación Web a móvil o de desarrollar una aplicación móvil con HTML5, es usar alguna herramienta como PhoneGap o Titanium, que te empaqueta todo el código de la Web en una aplicación que podemos poner a la venta en las tiendas de aplicaciones. A este tipo de apps se les llama híbridas, porque están desarrolladas con HTML5, pero tienen un envoltorio de código nativo del dispositivo, que ejecuta el HTML5 dentro de un navegador y permite el acceso a funcionalidades hardware a las que no es posible acceder, de momento, sólo con HTML5.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-warning mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 5</div>
+         <div class="card-body">
+           <h5 class="card-title">Estudio y análisis de los framework en php basados en el modelo vista controlador para el desarrollo de software orientado a la web</h5>
+           <p class="card-text">En este artículo de investigación se tiene como objetivo el indagar en el mundo de los frameworks en PHP, buscando información detallada sobre cada uno de estos, fecha de creación, usabilidad, entorno de diseño, sus componentes, realizando cuadros comparativos sobre las características de los distintos frameworks encontrados analizando los datos recopilados y obtener una visión de cuál de estos es más completo y más fácil de utilizar para el usuario. En este artículo se quiere mostrar conceptos de algunos de estos frameworks y definiciones de algunas propiedades que estos contienen, también se realizaron algunos cuadros comparativos donde se resaltan ventajas, desventajas, fabricantes de estos, entre otros datos, dando a los usuarios una idea de cuál elegir para satisfacer sus necesidades, a la hora de realizar tareas con frameworks en lenguaje PHP.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-info mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 6</div>
+         <div class="card-body">
+           <h5 class="card-title">Desarrollo de un software web para la generación de planes de gestión de riesgos de software</h5>
+           <p class="card-text">Este artículo presenta el diseño y desarrollo de un sistema web para el apoyo en la generación de planes de gestión del riesgo para el desarrollo de software, orientado a organizaciones emergentes de desarrollo tecnológico, a emprendedores nuevos y establecidos, en el sector de micro y pequeñas empresas del área. El objetivo principal de este sistema es mejorar las posibilidades de éxito en el desarrollo y concreción de nuevos productos de software de dichas empresas, mediante una serie de herramientas de apoyo, como el uso de coaching experto, trabajo colaborativo y la administración de proyectos, basado en tecnología web. El sistema se implementó usando tecnologías web de punta y se desarrolló utilizando un método evolutivo incremental, similar a SCRUM. Nuestro sistema se probó exitosamente en una empresa local de desarrollo de software. Esto demuestra que nuestro sistema es una herramienta eficiente para la generación de planes de gestión del riesgo para el desarrollo de software.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-light mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 7</div>
+         <div class="card-body">
+           <h5 class="card-title">La Web: una vía para la capacitación</h5>
+           <p class="card-text">El proceso de capacitación ha sido objeto de investigación y debate en múltiples instancias, pues urge cada vez más la necesidad de preparar a las personas para la tarea que desempeñan. El avance tecnológico permite ahora considerar otras alternativas para la capacitación de un personal determinado. En este artículo se hace una valoración de la estrecha relación que existe en la actualidad entre el proceso de capacitación y las tecnologías informáticas y de comunicaciones y a su vez una visión general de lo que implicaría la capacitación por medio de la Web.</p>
+         </div>
+       </div>
+
+       <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+         <div class="card-header">Articulo 8</div>
+         <div class="card-body">
+           <h5 class="card-title">Construyendo aplicaciones web con una metodología de diseño orientada a objetos</h5>
+           <p class="card-text">El presente artículo tiene como principal objetivo mostrar las ventajas del uso de una metodología de diseño orientada a objetos para desarrollar aplicaciones web.
+            Existen en la actualidad tecnologías que permiten un rápido desarrollo de aplicaciones poco reusables y difíciles de mantener. La metodología propuesta en este artículo, aplicada con las tecnologías brevemente descritas, permite obtener aplicaciones mediante un proceso de desarrollo en capas, aprovechando al máximo la potencia de la programación orientada a objetos.</p>
+         </div>
+       </div>
+     </div>
+   </div>
+  </main>
 
    <footer class="alinea-footer">
       <section class="footer-text">
