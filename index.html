@@ -25,30 +25,23 @@
 <body>
 
    <header class="menu-conteiner">
-      <nav class="navbar navbar-dark bg-dark navbar-toggleable-sm">
+      <nav class="navbar navbar-dark bg-dark navbar-expand-sm">
          <a class="navbar-brand" href="index.html">
             <img src="imagenes/logo.PNG" class="d-inline-block align-text-top" alt="logo boostrap">
           </a>
-           <div class="text-center">
-            <a href="https://www.facebook.com/" class="btn btn-outline-primary mr-3">Facebook</a>
-            <a href="https://web.whatsapp.com" class="btn btn-outline-primary mr-3">Whatsapp</a>
-            <a href="https://linkedin.com" class="btn btn-outline-primary mr-3">Linkedin</a>
-            <a href="https://instagram.com" class="btn btn-outline-primary mr-3">Instagram</a>
-            <a href="https://github.com/" class="btn btn-outline-primary mr-3">Github</a>
-          </div>
-          <button class="navbar-toggler navbar-toggler-right" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo01" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
            <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
-             <div class="navbar-nav mr-auto">
-               <a class="nav-item nav-link active" aria-current="page" href="index.html">Inicio</a>
-               <a class="nav-item nav-link" href="portafolioweb.html">Portafolio Web</a>
-               <a class="nav-item nav-link" href="acercade.html">Acerca de</a>
-               <a class="nav-item nav-link" href="articulos.html">Articulos</a>
-               <a class="nav-item nav-link" href="contacto.html">Contacto</a>
-             </div>
+               <ul class="navbar-nav mx-auto ">
+                 <li class="nav-item"><a class="nav-link active" aria-current="page" href="index.html">Inicio</a></li>
+                 <li class="nav-item"><a class="nav-link" href="portafolioweb.html">Portafolio Web</a></li>
+                 <li class="nav-item"><a class="nav-link" href="acercade.html">Acerca de</a></li>
+                 <li class="nav-item"><a class="nav-link" href="articulos.html">Articulos</a></li>
+                 <li class="nav-item"><a class="nav-link" href="contacto.html">Contacto</a></li>
+            </ul>
            </div>
-       </nav>
+      </nav>
    </header>
 
    <section class="product-container">
@@ -60,6 +53,12 @@
             el mundo del desarrollo.</h4>
       </div>
    </section>
+
+   <div class="icon-whatsapp">
+     <a href="https://api.whatsapp.com/send?phone=1157400849" class="btn-wsp" target="_blank">
+     <img src="imagenes/whatsapp.svg" alt="Whatsapp">
+     </a>
+   </div>
 
    <main>
       <section class="photo-grid-container">
@@ -106,6 +105,12 @@
       <section class="footer-text">
          <p>Copyright © 2022 Christian Trybulski Design Limited | christian.trybulski@gmail.com</p>
       </section>
+
+      <div class="text-center">
+         <a href="https://linkedin.com" class="btn btn-outline-primary">Linkedin</a>
+         <a href="https://instagram.com" class="btn btn-outline-primary">Instagram</a>
+         <a href="https://github.com/" class="btn btn-outline-primary">Github</a>
+      </div>
    </footer>
 
 
